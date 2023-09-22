@@ -1,0 +1,157 @@
+/* Reset default styles for various elements */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Default background color for light mode */
+body {
+    background-color: white;
+    height: 5000px;
+    text-align: center;
+    font-family: Arial;
+}
+
+/* Media query for dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: ; /* Change this to your desired dark mode background color */
+    }
+}
+
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #8B0000; /* Dark red for a religious theme */
+    color: white; /* Change the text color to white */
+}
+
+ul.navbar {
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    width: 80px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #555;
+}
+
+/* Bottom section styles */
+ul.bottom {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+    position: fixed;
+    top: 25%;
+    right: -250px;
+    height: 50%;
+    width: 250px;
+    background-color: #333;
+    transition: right 0.3s ease;
+    z-index: 1;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    padding: 10px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Animation styles */
+.fade {
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+.hide {
+    opacity: 0;
+}
+
+/* Font Awesome icon styles */
+.fa {
+    padding: 18px;
+    width: px;
+    color: white;
+    border-left: 0;
+}
+
+.fa:hover {
+    border-left: 10px solid transparent;
+    border-bottom: 3px solid orange;
+    transition: 0.5s;
+    color: orange;
+    transition-delay: 0s;
+}
+
+.left-line {
+    border-left: 2px solid red;
+}
+
+.about {
+    margin-top: 30%;
+    text-align: left;
+}
+
+.spiritual {
+    margin-top: 100%;
+    text-align: left;
+}
+
+.sublink {
+    opacity: 90%;
+    width: ;
+    position: inline-block;
+    display: inline-block;
+}
+
+ .sublink:hover {
+    transition: 0.5s;
+    transition-delay: 0.01s;
+    color: gold;
+    background-color: ;
+    opacity: 100%;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+}
